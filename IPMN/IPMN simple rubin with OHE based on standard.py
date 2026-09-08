@@ -2,7 +2,6 @@
 """
 IPMN 风险分级模型 - 外部参数标准化版本 (External Standardization)
 
-功能增强：
 1. 读取外部 Standardization_Parameters.xlsx 文件
 2. 强制使用外部参数对所有数据集进行数值标准化 (X - Mean) / Std
 3. 保持原有 Rubin 规则池化、SHAP 分析等流程不变
