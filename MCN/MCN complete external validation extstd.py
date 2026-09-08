@@ -176,7 +176,7 @@ def dynamic_preprocess_mcn(df):
 
 
 # ==========================================
-# 3. 【新增】外部标准化参数加载与应用函数
+# 3. 外部标准化参数加载与应用函数
 # ==========================================
 def load_external_std_params(file_path):
     """
@@ -288,7 +288,7 @@ def apply_external_standardization_array(X, feature_names, numeric_vars, std_dic
 
 
 # ==========================================
-# 4. 【新增】混淆矩阵绘制函数
+# 4. 混淆矩阵绘制函数
 # ==========================================
 def plot_confusion_matrix(y_true, y_pred, class_labels, title, save_path, figsize=(8, 6)):
     """
@@ -341,7 +341,7 @@ def plot_confusion_matrix(y_true, y_pred, class_labels, title, save_path, figsiz
 
 
 # ==========================================
-# 5. 【新增】ROC曲线绘制函数
+# 5. ROC曲线绘制函数
 # ==========================================
 def plot_roc_curves(y_true, y_prob, class_labels, title, save_path, figsize=(10, 8)):
     """
